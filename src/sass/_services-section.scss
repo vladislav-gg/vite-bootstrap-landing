@@ -41,6 +41,12 @@ details {
 details[open] summary::after {
 	transform: rotate(45deg);
 }
+details > summary {
+	list-style: none;
+}
+details > summary::-webkit-details-marker {
+	display: none;
+}
 
 #lower-accordion {
 	border-bottom: 1px solid $main-black;

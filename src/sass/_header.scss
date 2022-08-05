@@ -33,3 +33,17 @@ header {
 		}
 	}
 }
+@media screen and (max-width: 1024) {
+	header {
+		padding: 24px 56px 48px 24px;
+
+		.logo-wrap {
+			padding: 0 0 0 0;
+		}
+		.header-content {
+			margin: 64px 0 0 0;
+			padding-right: 56px;
+			padding-bottom: 48px;
+		}
+	}
+}

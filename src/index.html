@@ -172,7 +172,7 @@
 					</div>
 					<div class="carousel-mobile d-flex flex-column d-sm-none">
 						<div class="carousel-mobile-wrapper">
-							<img src="./images/carousel_slide1.png" alt="a man" />
+							<img src="./images/carousel_slide1.png" alt="" />
 						</div>
 						<div class="carousel-mobile-wrapper">
 							<img src="./images/carousel_slide2.gif" alt="gif" />
@@ -262,45 +262,5 @@
 		<!-- Swiper script -->
 		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 		<script type="module" src="./js/main.js"></script>
-		<script>
-			(function () {
-				"use strict";
-
-				const breakpoint = window.matchMedia(
-					"(min-width: 0px) and (max-width: 768px)"
-				);
-
-				let mySwiper;
-
-				const breakpointChecker = function () {
-					if (breakpoint.matches === true) {
-						if (mySwiper !== undefined) mySwiper.destroy(true, true);
-
-						return;
-					} else if (breakpoint.matches === false) {
-						return enableSwiper();
-					}
-				};
-
-				const enableSwiper = function () {
-					mySwiper = new Swiper(".mySwiper", {
-						slidesPerView: "auto",
-						spaceBetween: 30,
-						navigation: {
-							nextEl: ".swiper-button-next",
-						},
-						pagination: {
-							clickable: true,
-						},
-						mousewheel: true,
-						keyboard: true,
-					});
-				};
-
-				breakpoint.addListener(breakpointChecker);
-
-				breakpointChecker();
-			})();
-		</script>
 	</body>
 </html>
