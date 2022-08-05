@@ -55,9 +55,9 @@ p {
 	font-weight: 400;
 }
 
-// Mobile typography
+// Mobile-tablet typography
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 900px) {
 	h1 {
 		font-size: 1.75rem;
 		line-height: 2rem;
