@@ -57,3 +57,19 @@
 		height: 540px;
 	}
 }
+@media screen and (min-width: 1450px) {
+	.goals-section-wrap {
+		padding: 120px 0 120px 120px;
+	}
+
+	.content-wrap {
+		width: 515px;
+		padding: 82px 0;
+	}
+	.image-wrap {
+		overflow: hidden;
+		position: relative;
+		width: 50%;
+		// height: 540px;
+	}
+}
