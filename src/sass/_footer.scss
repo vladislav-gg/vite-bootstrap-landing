@@ -24,7 +24,6 @@ footer {
 }
 .right-side-bottom {
 	width: 171px;
-	// margin-top: 11px;
 }
 .left-side-bottom {
 	p {
@@ -51,6 +50,10 @@ footer {
 			cursor: pointer;
 		}
 	}
+	#top-paragraph {
+		margin-bottom: 0;
+		font-weight: 700;
+	}
 
 	.right-side-bottom {
 		width: 345px;
@@ -64,19 +67,14 @@ footer {
 			font-size: 0.938rem;
 		}
 	}
+	.about-us p {
+		font-size: 0.938rem;
+		font-weight: 700;
+		margin-bottom: 8px;
+	}
+	.connect-with-us p {
+		font-size: 0.938rem;
+		font-weight: 700;
+		margin-bottom: 8px;
+	}
 }
-
-// @media screen and (max-width: 768px) {
-// 	.footer-wrapper {
-// 		padding: 64px 24px 40px 24px;
-// 	}
-// 	.footer-bottom {
-// 		width: 300px;
-// 		p {
-// 			font-size: 0.75rem;
-// 		}
-// 	}
-// 	.right-side-bottom {
-// 		width: 171px;
-// 	}
-// }
