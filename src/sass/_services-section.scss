@@ -47,7 +47,7 @@ details[open] summary::after {
 	transform: rotate(45deg);
 }
 details > summary {
-	list-style: none;
+	display: flex;
 }
 details > summary::-webkit-details-marker {
 	display: none;
